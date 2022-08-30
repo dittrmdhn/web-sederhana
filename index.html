@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Pertama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header>
+            <div class="logo"> 
+                <img src="assets/icon/partner.png" alt="logo" class="logo-img">
+            <h1 class="logo">Codingers</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#jasa">JASA</a></li>
+                    <li><a href="mailto:adityaramadhan63.ar@gmail.com">KONTAK</a></li>
+                </ul>
+            </nav>
+            <button class="btn-cta" onclick="redir()">Follow Saya</button>
+        </header>
+        <div class="container">
+            <div class="intro">
+                <p class="title">Hello Bang Jago</p>
+                <p class="description">Lecturer from Heaven</p>
+                <img src="assets/foto/adiat.jpg" alt="adiat foto 1" class="img-foto">
+            </div>
+        </div>
+        <div class="parallax">
+            <div class="tentang">
+                <p class="title">Gue Hangker Berbakat</p>
+                <p class="description">Ngoding mudah bukan? bukan</p>
+                <div class="mt-10">
+                    <button class="btn-cta" onclick="redirWhatsapp()" target="blank">Yok Gawe</button>
+                </div>
+            </div>
+            <div class="container" id="jasa">
+                <div class="card">
+                    <div class="card-item">
+                        <img src="assets/icon/24-hours.png" alt="icon 1" class="icon" class="icon">
+                        <p class="card-title">24 Jam Ngoding</p>
+                        <p class="card-description">Nongki adalah jalan terbaik mencari ide dan inspirasi</p>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/icon/hot-deal.png" alt="icon 2" class="icon">
+                        <p class="card-title">Harga Terjangkau</p>
+                        <p class="card-description">Harga terjangkau tapi kualitas india, jangan malu jangan ragu</p>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/icon/rating.png" alt="icon 3" class="icon">
+                        <p class="card-title">Good inaf</p>
+                        <p class="card-description">Telah digunakan oleh 100+ Corporate, dan startup luar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="title">&copy; Bang Jago 2022</div>
+        </footer>
+        <script>
+            function redir() {
+                window.open('https://instagram.com/dittrmdhn')
+            }
+
+            function redirWhatsapp () {
+                window.open('https://wa.me/+6285155061134')
+            }
+        </script>
+</body>
+</html>
